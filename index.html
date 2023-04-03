@@ -16,7 +16,32 @@
         <div class="addButton">
             <button id="add">Add Book</button>
         </div>
-        <div class="bookForm"></div>
+        <div class="bookForm">
+            <form action="">
+                <div class="formInput">
+                    <label for="bookTitle">Book name</label>
+                    <input type="text" id="bookTitle" required>
+                </div>
+                <div class="formInput">
+                    <label for="bookAuthor">Book author</label>
+                    <input type="text" id="bookAuthor" required>
+                </div>
+                <div class="formInput">
+                    <label for="bookpages">Pages</label>
+                    <input type="number" id="bookPages" required>
+                </div>
+                <div class="formInput">
+                    <label for="bookRead">
+                        Did you read it?
+                        <input type="checkbox" id="bookRead">
+                    </label>
+                    
+                </div> 
+                <div class="formInput">
+                    <button type="submit" id="addBook">Add</button>
+                </div>       
+            </form>
+        </div>
         <div class="bookShelf"></div>
     </div>
     <footer><h3>Copyright © SPIRUS</h3></footer>
