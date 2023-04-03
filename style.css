@@ -1,0 +1,45 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.main{
+    height: 80vh;
+}
+
+.addButton{
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add{
+    height: 80%;
+    width: 15%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: cyan;
+    border-radius: 1rem;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+#add:active{
+    transform: translateY(2px);
+}
+
+.bookForm{
+    display:none;
+    height: 25vh;
+    border: 1px solid black;
+}
