@@ -95,5 +95,33 @@ input[type="text"],input[type="number"]{
 .card{
     background-color: antiquewhite;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.cardHeader{
+    font-weight: bold;
+}
+
+.readButton{
+    background-color: green;
+    height: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.deleteButton{
+    background-color: red;
+    height: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.noBook{
+    font-weight: bold;
+    opacity: 0.25;
+    font-size: 8.5rem;
 }
